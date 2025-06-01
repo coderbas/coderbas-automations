@@ -1,0 +1,12 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore your config file that holds secrets
+backend/config.py
+
+# Ignore Node.js build artifacts
+node_modules/
+frontend/node_modules/
+.next/
+dist/
